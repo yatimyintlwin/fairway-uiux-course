@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Selector</title>
+
+    <style>
+      h1 {
+        color: red;
+      }
+
+      .class-selector {
+        color: red;
+      }
+
+      #id-selector {
+        color: blue;
+      }
+
+      html body p.para {
+        color: blue;
+      }
+
+      a[href="#"] {
+        color: green;
+      }
+
+      i,
+      b,
+      small {
+        color: yellow;
+      }
+
+      div > i {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- descendent -> id -> class -> element -->
+    <h1>Element Selector</h1>
+    <h2 class="class-selector">Class Selector</h2>
+    <h3 id="id-selector">ID Selector</h3>
+    <p class="para">Descendent</p>
+    <a href="#" data="attr">Attribute Selector</a>
+
+    <i>Group</i>
+    <b>Group</b>
+    <small>Group</small>
+
+    <div>
+      <i>Child Selector</i>
+
+      <p>
+        <i>Not direct child</i>
+      </p>
+    </div>
+  </body>
+</html>
