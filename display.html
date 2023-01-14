@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display - Block & Inline</title>
+    <style>
+      span {
+        background-color: firebrick;
+        color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+
+        display: block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px; /* vertical -> middle */
+
+        margin: 50px auto; /* y(50px) x(center) */
+        transition: all 0.3s;
+      }
+
+      span:hover {
+        background-color: green;
+
+        /* original scale: 1 */
+        transform: rotate(90deg) scale(2);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Class :</h1>
+    <p>hover, active first-child, last-child, nth-child()</p>
+    <span>:)</span>
+  </body>
+</html>
