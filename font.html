@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font</title>
+
+    <style>
+      /* Font size */
+      body {
+        font-size: 20px;
+      }
+      /* parent font size */
+      .em {
+        font-size: 1em; /* 1em = 20px */
+      }
+      /* html (or) browser font size */
+      .rem {
+        font-size: 1rem; /* 1rem = 16px (browser) */
+      }
+
+      .parent {
+        font-size: 2em; /* 2em = 40px (body) */
+      }
+      .child {
+        font-size: 2em; /* 2em = 80px (.parent) */
+      }
+      .sub-child {
+        font-size: 1em; /* 1em = 80px (.child) */
+      }
+
+      div {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- relative unit: em, rem, %, vw, vh -->
+    <div class="em">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatibus
+      optio perferendis aliquam harum dolorem beatae vitae temporibus ipsa
+      soluta! Dolore minus magnam, voluptatem corrupti recusandae rerum natus
+      commodi sapiente!
+    </div>
+
+    <div class="rem">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, non
+      dignissimos assumenda consequuntur libero molestiae nobis? Perferendis
+      asperiores minima ut deleniti? Voluptates, alias. Ex fugit veniam non
+      culpa nam officia.
+    </div>
+
+    <div class="parent">
+      <div class="child">
+        <div class="sub-child">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          accusamus fugiat earum sit alias facere iure molestiae voluptatem cum
+          quis. Eaque quaerat dignissimos accusamus maxime rem similique labore
+          quos harum!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

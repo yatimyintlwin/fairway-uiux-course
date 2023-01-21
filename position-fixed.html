@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Position (Fixed)</title>
+    <style>
+      .top {
+        display: block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background-color: gray;
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 2px;
+        text-align: center;
+        cursor: pointer;
+
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+
+        transition: all 0.5s;
+      }
+
+      .top:hover {
+        background-color: firebrick;
+        color: white;
+        transform: rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- position: relative, absolute, sticky, fixed -->
+    <span class="top">:)</span>
+  </body>
+</html>
