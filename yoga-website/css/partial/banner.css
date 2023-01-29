@@ -1,0 +1,53 @@
+/* Banner 1 */
+.banner-1 {
+  display: flex;
+  height: 50rem;
+}
+
+/* Child -> grow, shrink, basis */
+/* flex-grow -> whitespace (%) */
+
+.banner-1 .banner-1-body {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.banner-1 .banner-1-body h1 {
+  margin-bottom: 2rem;
+}
+.banner-1 .banner-1-body h1:nth-child(1) {
+  color: var(--brand-color);
+  font-size: 5.4rem;
+  font-weight: 100;
+}
+.banner-1 .banner-1-body h1:nth-child(1) span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-1 .banner-1-body h1:nth-child(2) {
+  font-size: 6.8rem;
+  font-weight: 100;
+}
+.banner-1 .banner-1-body h1:nth-child(2) span {
+  font-weight: 700;
+}
+.banner-1 .banner-1-body p {
+  color: #706e78;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-1 .banner-1-img {
+  flex-grow: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-1 .banner-1-img img {
+  width: 30rem;
+  height: auto;
+}

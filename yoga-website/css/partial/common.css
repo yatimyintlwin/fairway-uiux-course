@@ -1,0 +1,12 @@
+.section-tile {
+  font-weight: 700px;
+  color: #333;
+  margin-bottom: 6rem;
+}
+.brand-color {
+  color: var(--brand-color);
+}
+.container {
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--secondary-font-family);
+  font-size: var(--secondary-font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h1 {
+  font-family: var(--primary-font-family);
+  font-size: var(--primary-font-size);
+}
