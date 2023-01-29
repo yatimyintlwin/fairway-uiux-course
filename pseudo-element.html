@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Pseudo Element</title>
+    <style>
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 40px;
+        font-family: "Roboto";
+        font-weight: 700;
+        color: firebrick;
+        position: relative;
+      }
+      a::before {
+        content: "";
+        display: block;
+        width: 0%;
+        height: 10px;
+        background-color: rgb(144, 177, 144);
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        transition: all 0.3s;
+      }
+      a:hover::before {
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Pseudo Element</a>
+  </body>
+</html>

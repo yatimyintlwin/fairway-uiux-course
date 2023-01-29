@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Variable</title>
+    <style>
+      :root {
+        --text-color: firebrick;
+      }
+      .section-1 .title {
+        color: var(--text-color);
+      }
+      .section-2 .title {
+        color: var(--text-color);
+      }
+      .section-3 .title {
+        color: var(--text-color);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section-1">
+      <h1 class="title">Section Title</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        deserunt quasi voluptates minima ad vel corporis asperiores doloremque.
+        Labore molestiae tempore officia? Nisi maxime, totam nostrum pariatur
+        facere ad illo.
+      </p>
+    </section>
+
+    <section class="section-2">
+      <h1 class="title">Section Title</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        deserunt quasi voluptates minima ad vel corporis asperiores doloremque.
+        Labore molestiae tempore officia? Nisi maxime, totam nostrum pariatur
+        facere ad illo.
+      </p>
+    </section>
+
+    <section class="section-3">
+      <h1 class="title">Section Title</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        deserunt quasi voluptates minima ad vel corporis asperiores doloremque.
+        Labore molestiae tempore officia? Nisi maxime, totam nostrum pariatur
+        facere ad illo.
+      </p>
+    </section>
+  </body>
+</html>

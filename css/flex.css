@@ -1,0 +1,34 @@
+.flex-container {
+  border: 2px solid black;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.flex-container .flex-item {
+  background-color: firebrick;
+  color: white;
+  padding: 20px;
+}
+
+/* Flex Container 1 */
+.flex-container-1 {
+  display: flex;
+
+  /* flex-start(left/top), flex-end(right/bottom) */
+  /* x */
+  justify-content: center;
+  /* y */
+  align-items: flex-end;
+}
+
+/* Flex Container 2 */
+.flex-container-2 {
+  display: flex;
+  gap: 2em;
+
+  /* column */
+  flex-direction: row;
+
+  /* space-evenly, space-around */
+  justify-content: space-between;
+  align-items: flex-start;
+}

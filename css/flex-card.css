@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto";
+  background-color: #e7e7e7;
+  margin: 0;
+  margin-bottom: 200vh;
+}
+h1,
+h3 {
+  font-family: "Poppins";
+  color: red;
+}
+h1 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+section {
+  background-color: #fff;
+  margin: 3em auto;
+  max-width: 800px;
+  padding: 20px;
+}
+.container {
+  border-top: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+/* Section Title */
+section h1 {
+  position: relative;
+  z-index: 1;
+}
+section h1::after {
+  content: "C";
+  position: absolute;
+  margin: 0;
+  font-size: 4em;
+  font-weight: 400;
+  color: rgb(181, 174, 174);
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
