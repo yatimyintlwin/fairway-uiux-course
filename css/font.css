@@ -38,10 +38,11 @@ p {
 }
 
 @font-face {
-  font-family: fac;
+  font-family: NotoSansJP;
   src: url("../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf");
+  font-weight: 400;
 }
 
 .jp-font {
-  font-family: "NotoSansJP Medium";
+  font-family: NotoSansJP;
 }
