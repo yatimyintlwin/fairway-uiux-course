@@ -1,12 +1,33 @@
-.section-tile {
+.section-title {
   font-weight: 700px;
   color: #333;
   margin-bottom: 6rem;
 }
+
 .brand-color {
   color: var(--brand-color);
 }
+
 .container {
   width: 90%;
   margin: auto;
+}
+
+.py-60 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.btn {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--brand-color);
 }
