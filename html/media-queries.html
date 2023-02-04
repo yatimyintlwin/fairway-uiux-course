@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Media Queries</title>
+    <style type="text/css">
+      body {
+        background-color: #e7e7e7;
+      }
+      .box {
+        border-radius: 12px;
+        max-width: 80%;
+        margin: 50px auto;
+        background-color: red;
+        color: #fff;
+        height: 100px;
+        text-transform: uppercase;
+        display: grid;
+        place-content: center;
+
+        /* mobile (0 -> 600px) */
+        font-size: 10px;
+      }
+
+      /* 600px -> 800px (tablet) */
+      @media (min-width: 600px) {
+        .box {
+          font-size: 20px;
+        }
+      }
+
+      /* 800px -> infinity (desktop) */
+      @media (min-width: 800px) {
+        .box {
+          font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">CSS - Media Queries</div>
+  </body>
+</html>
