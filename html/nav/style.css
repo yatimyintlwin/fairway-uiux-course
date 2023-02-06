@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section */
+section {
+  background-color: firebrick;
+  height: 80px;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand */
+.brand a {
+  font-size: 40px;
+}
+
+/* Nav */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  transition: 0.3s;
+}
+
+/* Humburger toggle */
+button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border: 0 none;
+  border-radius: 4px;
+  position: relative;
+  display: none;
+}
+
+button::before,
+button::after {
+  content: "";
+
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: firebrick;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button::before {
+  top: 30%;
+}
+button::after {
+  top: 60%;
+}
+
+.active {
+  left: 0;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  nav ul {
+    background-color: #333;
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  button {
+    display: block;
+  }
+}
