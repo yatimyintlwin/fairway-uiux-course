@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap - Grid System</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <style>
+      [class*="col"] {
+        border: 2px solid firebrick;
+        /* padding: 2em; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 0 - 576 - 768 - 992 - 1200 - 1400 -->
+    <!-- 0 - sm  - md  - lg  -  xl  - xxl  -->
+    <!--     8     2            5          -->
+
+    <div class="row mb-5">
+      <div class="col-xl-5 col-md-2 col-sm-8 col-sm-8">Col</div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-2 col-md-10">Col</div>
+      <div class="col-lg-10 col-md-2">Col</div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-lg-3 col-md-6">Col</div>
+      <div class="col-lg-3 col-md-6">Col</div>
+      <div class="col-lg-3 col-md-6">Col</div>
+      <div class="col-lg-3 col-md-6">Col</div>
+    </div>
+  </body>
+</html>
