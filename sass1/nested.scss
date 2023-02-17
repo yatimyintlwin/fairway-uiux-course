@@ -1,0 +1,24 @@
+.container {
+  border: 4px solid red;
+  padding: 20px;
+  margin: 50px auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+button {
+  border: 1px solid red;
+  padding: 12px 40px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: red;
+    color: #fff;
+  }
+}
