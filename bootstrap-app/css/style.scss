@@ -1,0 +1,13 @@
+// Bootstrap SCSS
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// AOS SCSS
+@import "../node_modules/aos/src/sass/aos.scss";
+
+// Custom SCSS
+@import "scss/variable";
+@import "scss/mixin";
+@import "scss/global";
+@import "scss/common";
+@import "scss/header";
+@import "scss/about-us";
