@@ -11675,4 +11675,33 @@ section {
 .banner h1:nth-child(2), .banner .h1:nth-child(2) {
   font-size: 10rem;
   font-weight: 100;
+}
+
+.our-services .our-services-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services .our-services-img {
+  background-color: #3289ea;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services h1, .our-services .h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.our-services p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
