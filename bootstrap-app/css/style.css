@@ -11677,31 +11677,15 @@ section {
   font-weight: 100;
 }
 
-.our-services .our-services-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-.our-services .our-services-img {
-  background-color: #3289ea;
+.our-services .card .card-img-top {
   width: 16rem;
   height: 16rem;
-  border-radius: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 0;
-  justify-content: center;
-  align-items: center;
+  background-color: #3289ea;
 }
 
-.our-services h1, .our-services .h1 {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-}
-
-.our-services p {
-  text-align: center;
+.portfolios {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)), url("../../img/breather-163395.jpg") no-repeat center;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

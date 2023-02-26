@@ -5,6 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
+    <!-- OwlCarousel CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Lightgallery CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/lightgallery/css/lightgallery.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/lightgallery/css/lightgallery-bundle.css"
+    />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -33,19 +53,19 @@
       <!-- Nav -->
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav m-auto text-center">
-          <li class="nav-item px-0 px-lg-5 py-5 py-lg-0">
+          <li class="nav-item px-0 px-lg-5 py-4 py-lg-0">
             <a href="" class="nav-link text-uppercase">Home</a>
           </li>
-          <li class="nav-item px-0 px-lg-5 py-5 py-lg-0">
+          <li class="nav-item px-0 px-lg-5 py-4 py-lg-0">
             <a href="" class="nav-link text-uppercase">About</a>
           </li>
-          <li class="nav-item px-0 px-lg-5 py-5 py-lg-0">
+          <li class="nav-item px-0 px-lg-5 py-4 py-lg-0">
             <a href="" class="nav-link text-uppercase">Services</a>
           </li>
-          <li class="nav-item px-0 px-lg-5 py-5 py-lg-0">
+          <li class="nav-item px-0 px-lg-5 py-4 py-lg-0">
             <a href="" class="nav-link text-uppercase">Pricing</a>
           </li>
-          <li class="nav-item px-0 px-lg-5 py-5 py-lg-0">
+          <li class="nav-item px-0 px-lg-5 py-4 py-lg-0">
             <a href="" class="nav-link text-uppercase">Contact</a>
           </li>
         </ul>
@@ -128,7 +148,7 @@
 
         <div class="carousel-item">
           <img
-            src="https://picsum.photos/id/1009/1000/500"
+            src="https://picsum.photos/id/1006/1000/500"
             alt=""
             class="d-block w-100"
           />
@@ -154,55 +174,236 @@
       <h1 class="section-title">Our Services</h1>
 
       <div class="row row-cols-lg-3 row-cols-1">
-        <div class="col our-services-body">
-          <div class="our-services-img">
-            <img src="img/mobile.png" alt="mobile" />
-          </div>
-          <h1 class="my-4">Mobile</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
-            aliquid delectus deleniti dolorum excepturi in iste modi natus non
-            pariatur ratione sequi.
-          </p>
-
-          <div>
-            <button type="button" class="btn btn-primary btn-lg">
-              Read More
-            </button>
+        <div class="col">
+          <div class="card text-center border-0">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center m-auto rounded-circle"
+            >
+              <img src="img/mobile.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h1 class="text-uppercase">Mobile</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                nobis pariatur incidunt sit, soluta asperiores reprehenderit?
+                Eum atque, nemo quia amet, necessitatibus nulla quisquam
+                repudiandae sit hic incidunt sapiente impedit.
+              </p>
+              <button
+                class="btn bg-brand-color text-white w-50 rounded-pill py-3"
+              >
+                Read More
+              </button>
+            </div>
           </div>
         </div>
 
-        <div class="col our-services-body">
-          <div class="our-services-img">
-            <img src="img/web.png" alt="web" />
+        <div class="col">
+          <div class="card text-center border-0">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center m-auto rounded-circle"
+            >
+              <img src="img/web.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h1 class="text-uppercase">Web</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                nobis pariatur incidunt sit, soluta asperiores reprehenderit?
+                Eum atque, nemo quia amet, necessitatibus nulla quisquam
+                repudiandae sit hic incidunt sapiente impedit.
+              </p>
+              <button
+                class="btn bg-brand-color text-white w-50 rounded-pill py-3"
+              >
+                Read More
+              </button>
+            </div>
           </div>
-          <h1 class="my-4">Web</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
-            aliquid delectus deleniti dolorum excepturi in iste modi natus non
-            pariatur ratione sequi.
-          </p>
-
-          <button type="button" class="btn btn-primary btn-lg">
-            Read More
-          </button>
         </div>
 
-        <div class="col our-services-body">
-          <div class="our-services-img">
-            <img src="img/ui-ux.png" alt="UI/UX" />
+        <div class="col">
+          <div class="card text-center border-0">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center m-auto rounded-circle"
+            >
+              <img src="img/ui-ux.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h1 class="text-uppercase">UI/UX</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                nobis pariatur incidunt sit, soluta asperiores reprehenderit?
+                Eum atque, nemo quia amet, necessitatibus nulla quisquam
+                repudiandae sit hic incidunt sapiente impedit.
+              </p>
+              <button
+                class="btn bg-brand-color text-white w-50 rounded-pill py-3"
+              >
+                Read More
+              </button>
+            </div>
           </div>
-          <h1 class="my-4">UI/UX</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
-            aliquid delectus deleniti dolorum excepturi in iste modi natus non
-            pariatur ratione sequi.
-          </p>
-
-          <button type="button" class="btn btn-primary btn-lg">
-            Read More
-          </button>
         </div>
+      </div>
+    </div>
+
+    <!-- Portfolios -->
+    <div class="portfolios">
+      <div class="container">
+        <h1 class="section-title text-white">Portfolios</h1>
+
+        <!-- Owl Carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/portfolio-01.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-02.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-03.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-04.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-05.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-01.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-02.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-03.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-04.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+
+          <div class="item">
+            <img src="img/portfolio-05.png" alt="" />
+            <p
+              class="bg-brand-color text-uppercase text-white text-center py-3"
+            >
+              Office
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Gallery -->
+    <div class="our-gallery">
+      <h1 class="section-title">Our Gallery</h1>
+
+      <!-- Lightgallery html -->
+      <div
+        id="anchor-tag"
+        class="row row-cols-lg-6 row-cols-md-4 row-cols-sm-2 row-cols-1 text-center"
+      >
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
+
+        <a href="img/gal-01.png" class="col pb-5">
+          <img src="img/gal-01.png" class="img-fluid" />
+        </a>
       </div>
     </div>
 
@@ -211,6 +412,15 @@
 
     <!-- Bootstrap JS -->
     <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <!-- Lightgallery JS -->
+    <script src="node_modules/lightgallery/lightgallery.umd.js"></script>
+    <script src="node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js"></script>
 
     <!-- Custom JS -->
     <script src="js/app.js"></script>
